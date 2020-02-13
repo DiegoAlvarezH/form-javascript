@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Js</title>
+    <!--CDN Bootstrap V4.4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="Form" class="row">
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">Ingresa el formulario</h2>
+                    </div>
+                        <form id="form-accept" class="card-body">
+                            <div class="form-group">
+                                <input type="text" id="names" placeholder="Ingrese su nombre completo"
+                                class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="tel" placeholder="Numero de telefono"
+                                class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Ingrese su Email"
+                                required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" id="age" placeholder="Ingrese su edad"
+                                class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="genero" id="genero" class="form-control">
+                                    <option value="es Hombre">Masculino</option>
+                                    <option value="es Mujer">Femenino</option>
+                                    
+                                </select>
+                            </div>
+                            <input type="submit" value="Guardar" class="btn btn-outline-warning btn-lg btn-block">
+                        </form>
+                </div>
+                <div id="table-imp">
+                    <br><br>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                              <th scope="col">Nombre</th>
+                              <th scope="col">tel</th>
+                              <th scope="col ">email</th>
+                              <th scope="col">edad</th>
+                              <th scope="col">genero</th>
+                            </tr>
+                          </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

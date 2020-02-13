@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    padding: 2%;
+    width: auto;
+}
+
+.form{
+    width: 600px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    width: 800px;
+}
